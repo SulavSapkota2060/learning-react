@@ -33,7 +33,7 @@ componentDidMount(){
         {this.context.is_authenticated ? <p>Authenticated</p>: <p>Please Login</p>}
       
       <div className="details">
-        <h2>{this.props.name}</h2>
+        <h3>{this.props.name}</h3>
         <p>I am {this.props.age} years old.</p>
       </div>
       <input
