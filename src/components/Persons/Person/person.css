@@ -1,0 +1,24 @@
+.card {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 5px 10px #ccc;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  transition: transform;
+  transition-duration: 0.3s;
+}
+
+.card input {
+  border: 1px solid rgb(52, 13, 161);
+  border-radius: 4px;
+  padding: 7px;
+}
+.card:hover{
+  transform: translate3d(0px,-5px,0px);
+  box-shadow: -5px 10px 20px #ccc;
+}
